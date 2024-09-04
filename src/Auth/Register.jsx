@@ -20,7 +20,7 @@ const Register = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
-      <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-lg">
+      <div className="max-w-md w-full bg-white p-8 rounded-xl shadow-lg">
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-700">Register</h2>
         <form onSubmit={handleRegister} className="space-y-4">
           <input
